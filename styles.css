@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.logo{
+    /*width: 127.60px;
+    height: 51.33px;*/
+    width: 7%;
+    height: 7%;
+}
+.navbar{
+    background-color: white;
+}
+li {
+    list-style-type: none;
+    /* Убираем маркеры */
+  }
+.frm{
+    display: flex;
+    /*justify-content:end;*/
+     position: absolute;
+    top: 0;
+    right: 0; 
+    padding: 4px;
+    margin: 6px;
+}
+.logo_adm{
+    width: 30%;
+    height: 20%;
+}
+.carousel_img{
+    width: 800px;  
+    height: 420px;
+    object-fit: fill;
+}
+.h2_carousel{
+    text-align:left;
+    /*margin-bottom: 30px;*/
+}
+.p_carousel{
+    position: relative;
+    top: 0;
+    margin-bottom: 137px;
+    text-align:left;
+}
+.butt_carousel1{
+    position: relative;
+    top: -145px;
+    right: 485px;
+    
+    background-image: linear-gradient(to right, #250302 0%, #c31009  51%, #250302  100%);
+    font-size: medium;
+    text-transform:uppercase ;
+    color: #ffffff;
+    border-color: #250302;
+    transition: 0.5s;
+    background-size: 200% auto;  
+    border-radius: 10px;
+}
+.butt_carousel1:hover{
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+.butt_carousel2{
+    position: relative;
+    top: -125px;
+    left: 540px;
+
+    background-image: linear-gradient(to right, #73a8f8 0%, #e7c5f7  51%, #73a8f8  100%);
+    font-size: medium;
+    text-transform:uppercase ;
+    color: #ffffff;
+    border-color: #73a8f8;
+    transition: 0.5s;
+    background-size: 200% auto;  
+    border-radius: 10px;
+}
+.butt_carousel2:hover{
+    background-position: right center;
+    color: #ffffff;
+    text-decoration: none;
+  }
+.butt_carousel3{
+    position: relative;
+    top: -130px;
+    right: 480px;
+          
+    background-image: linear-gradient(to right, #1d0807 0%, #4b1012  51%, #1d0807  100%);
+    font-size: medium;
+    text-transform:uppercase ;
+    color: #ffffff;
+    border-color: #1d0807;
+    transition: 0.5s;
+    background-size: 200% auto;  
+    border-radius: 10px;
+}
+.butt_carousel3:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #ffffff;
+    text-decoration: none;
+  }
+a{
+    text-decoration: none;
+    color:rgb(62, 24, 94);
+}
+a:hover {
+    color:#59ae58;
+}
+/*
+.card{
+    width: 95%;
+    height: auto;
+} */
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+.admin_image{
+    width: 100px;
+    object-fit: contain;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+}
+/* .form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}  */
+.imgpp{
+    width: 70%;
+    margin: auto;
+    display: block;
+}
+.profile_img{
+    width: 90%;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+.edit_account_img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+.admin_products_images{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+.admin_regist_img{
+    width: 634px;
+    height: 398px;
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
