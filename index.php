@@ -1,4 +1,4 @@
-<!-- connect files -->
+<!-- try connect files -->
 <?php
   include('includes/connect.php');
   include('functions/function.php');
